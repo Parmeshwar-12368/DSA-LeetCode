@@ -2,7 +2,7 @@ class Solution {
 public:
     bool checkSubarraySum(vector<int>& nums, int k) {
         unordered_map<int, int> m;
-        m[0] = -1;
+        m[0]=-1;
 
         int sum = 0;
 
