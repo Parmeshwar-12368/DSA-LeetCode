@@ -5,7 +5,7 @@ public:
         int n = nums.size();
         int result = nums[0]+nums[1]+nums[2];
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n-2; i++){
             int st = i+1, end=n-1;
 
             while(st < end){
